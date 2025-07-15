@@ -42,13 +42,8 @@ class BST(BinarySearchTree):
             if current_node.right:
                 traverse(current_node.right)
 
-
         traverse(self.root)
         return results
-
-
-
-
 
 
 if __name__ == "__main__":
